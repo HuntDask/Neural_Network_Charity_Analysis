@@ -14,7 +14,7 @@ In our project, we are creating neural networks and deep learning models to coll
 - for our neurons, layers and acivations functions, we decided to use different numbers per layer in our model. In our first layer, we had 110 neurons and moved to 80 neurons for layer 2. it was a diving by 2 each time for layers 3 and 4, going from 80 in layer 2 to 40 in layer 3 and 20 in layer 4 respectivelly. each of these neuron numbers were calcuated baed on the activation that it gave us for our model. 
 <img width="906" alt="neuron layers functions" src="https://user-images.githubusercontent.com/107444840/204600247-1b52317a-45d0-42ae-8ace-8047fa81f156.png">
 
-- We were not able to reach the 75% mark for the target in our model.
+- We were not able to reach the 75% mark for the target in our model. The closest we were able to acheive from our analysis was at the 0.72373, or around 72% total accuracy.
 
 - To increase our model performance, I tried to delte some of the random columns that wer not genrating any higher of an accuracy for us in our model such as STATUS column. These did not help in acheiving a higher accurancy, and we were able to see that from our results. To get our highest possible reuslts from our model, we had to examine the early layers and sigmoid actrivation at the following layers after in order to examine and analyze the best results possible. 
 
